@@ -1,0 +1,103 @@
+
+body{
+    width: 287px;
+    height: 93px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.placar{
+    position: absolute;
+    background-image: url("../imagens/alerta_luta_total.png");
+    width: 287px;
+    height: 93px;
+}
+
+.partida{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 287px;
+    height: 93px;
+    overflow: hidden;
+    font-family: "CustomFont";
+    font-size: 19px;
+    /* font-weight: bolder; */
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    
+}
+
+.round{
+    position: relative;
+    display: flex;
+    /* background-color: blue; */
+    width: 146px;
+    height: 21%;
+    left: 18%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.p{
+    display: flex;
+    /* background-color: pink; */
+    width: 100%;
+    height: 26px;
+    margin-bottom: 21px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.name{
+    /* background-color: red; */
+    display: flex;
+    width: 87%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    color: #512a00;
+}
+
+.score{
+    /* background-color: yellow; */
+    width: 13%;
+    text-align: center;
+    padding-right: 3px;
+    overflow: hidden;
+    color: white;
+}
+
+
+.txt{
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.txt_round{
+    position: absolute;
+    overflow: hidden;
+    transform-origin: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+.ordem{
+    opacity: 0;
+    transition: opacity 2s;
+}
+@font-face {
+    font-family: "CustomFont";
+    src: url("../Fonts/Branding_SF_Black_It.otf");
+}
